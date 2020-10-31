@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="cssbox.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Marilyn Monroe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title></title>
+
+  <style>
+img.cssbox_thumb {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background: pink;
+  border-radius: 4px;
+}
+
+img.cssbox_thumb:hover {
+  box-shadow: 0 0 2px 1px rgba(204, 255, 2, 0.5); 
+}
+</style>
+</head>
+<body>
+<div class="cssbox_wrapper">
+
+  <div class="cssbox">
+  <a id="image1" href="#image1">
+    <img class="cssbox_thumb" src="http://www.bestillustrationart.com/wp-content/uploads/2018/12/Illustrator-Geometric-Marilyn-Monroe-by-Josh-Bryan.jpg" style="width:150px">
+    <span class="cssbox_full">
+      <img src="http://www.bestillustrationart.com/wp-content/uploads/2018/12/Illustrator-Geometric-Marilyn-Monroe-by-Josh-Bryan.jpg">
+    </span>
+  </a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image2">&gt;</a>
+</div>
+
+<div class="cssbox">
+  <a id="image2" href="#image2">
+    <img class="cssbox_thumb" src="https://media.istockphoto.com/vectors/smile-with-open-mouth-and-a-mole-on-the-left-cheek-monroe-marilyn-vector-id1158448647?b=1&k=6&m=1158448647&s=612x612&w=0&h=JSIxJqnuESXGFNCijA5UEGD02--pqS3ge8atdMdT1UY=" style="width:150px">
+    <span class="cssbox_full">
+      <img src="https://media.istockphoto.com/vectors/smile-with-open-mouth-and-a-mole-on-the-left-cheek-monroe-marilyn-vector-id1158448647?b=1&k=6&m=1158448647&s=612x612&w=0&h=JSIxJqnuESXGFNCijA5UEGD02--pqS3ge8atdMdT1UY=">
+    </span>
+  </a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_prev" href="#image1">&lt;</a>
+  <a class="cssbox_next" href="#image3">&gt;</a>
+</div>
+
+<div class="cssbox">
+  <a id="image3" href="#image3">
+    <img class="cssbox_thumb" src="https://pixy.org/src/63/638149.jpg" style="width:150px">
+    <span class="cssbox_full">
+      <img src="https://pixy.org/src/63/638149.jpg">
+    </span>
+  </a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_prev" href="#image2">&lt;</a>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
